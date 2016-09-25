@@ -39,6 +39,7 @@ ServletContext servletContext = getServletContext();
 		response.setContentType("text/html");
 		out.println("<html><head><title>Display Counter</title></head><body>");
 		out.println("<p>The counter value is currently:" + counter + "</p>");
+		out.println("<p>it's is check</p>");
 		out.println("</body></html>");
 	}
 
